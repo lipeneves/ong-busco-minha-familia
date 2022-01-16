@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lorem Ipsum">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="theme-color" content="#0253a2">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0253a2">
+  <meta name="msapplication-navbutton-color" content="#0253a2">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+  <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/png"> -->
+
+  <title>NGO I Look For My Family | Volunteer Work in Brazil</title>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="containerHeader container">
+      <nav>
+        <a href="#"><img src="img/logo.svg" alt="Logo da ONG Busco Minha Família" class="logo"></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <img src="./img/menu-icon.svg" class="btn-menu" />
+        </label>
+
+        <ul class="listMenu">
+          <li><a class="linkMenu" onclick="handleMenu()" href="https://www.facebook.com/groups/1648599122092391" target="_blank">Facebook Group</a></li>
+          <li><a class="linkMenu" onclick="handleMenu()" href="#">Contact</a></li>
+          <li class="lang-menu">
+            <div class="selected-lang">
+              <span class="en" style="color: white;display: flex;align-items: center;">EN</span>
+            </div>
+            <ul class="langs">
+              <li><a class="br" href="index.html">PT-BR</a></li>
+              <li><a class="en" href="en.html">EN</a></li>
+              <li><a class="es" href="es.html">ES</a></li>
+              <li><a class="fr" href="fr.html">FR</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="containerBanner container">
+      <p>We help people find their missing family, biological family or children who are given up for adoption</p>
+      <a href="#" class="btn-encontrar">I want to find someone</a>
+    </div>
+  </section>
+
+  <section class="estatisticas">
+    <div class="containerEstatisticas container">
+      <div>We have already carried out more than <span class="numeroReencontros">2000</span> Reunions </div>
+      <span class="divisoria"></span>
+      <div class="naoCobramos">
+        <h2>We don't charge anything</h2>
+        <p>We help out of love, our work is 100% voluntary, but we need your help to keep this project going, help us with a donation or by participating in our raffles</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="naMidia">
+    <div class="containerNaMidia container">
+      <h2><span class="bmf">Busco Minha Família</span> in the Newspapers</h2>
+      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/aPmPlI1WU38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div class="listaJornais">
+        <a href="https://www.bbc.com/portuguese/brasil-51510856" target="_blank"><img src="./img/bbc.png" alt="BBC News" class="jornal"></a>
+        <a href="https://recordtv.r7.com/domingo-espetacular/videos/carioca-usa-redes-sociais-para-ajudar-familias-a-encontrar-parentes-que-nunca-viram-02032020" target="_blank"><img src="./img/record.png" alt="Record TV" class="jornal"></a>
+        <a href="https://odia.ig.com.br/rio-de-janeiro/2019/12/5842996-historias-que-se--reencontram.html" target="_blank"><img src="./img/oDia.png" alt="Jornal O Dia" class="jornal"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section>
+    <h2>Como Ajudar?</h2>
+  </section> -->
+
+  <section id="nossaHistoria">
+    <div class="containerNossaHistoria container">
+      <h2>Our Story</h2>
+      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Q9rFUczrGJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>We are a group that seeks to help people locate their family members. Our work is entirely voluntary. If you are looking for a family member or friend who has lost contact or is a mother or father looking for their child or if you are adopted and looking for your biological family, tell us your story, we will try to help in the best way possible.
+      </p>
+    </div>
+  </section>
+
+  <footer id="ajudar">
+    <div class="containerFooter container">
+      <a class="rifa" href="https://www.facebook.com/groups/1648599122092391/posts/3070761189876170/" target="_blank">see how to help</a>
+      <p>Help us by participating in our Raffle or making a donation.<br>
+        For more information visit our facebook group</p>
+      <p class="copy">Copyright © 2022 - NGO I Look For My Family</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
