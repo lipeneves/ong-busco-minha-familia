@@ -289,6 +289,9 @@ footer {
   }
 }
 @media (max-width: 858px) {
+  h2 {
+    font-size: 1.2rem;
+  }
   .checkbtn {
     display: block;
   }
